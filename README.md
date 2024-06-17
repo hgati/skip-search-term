@@ -1,1 +1,1 @@
-# skip-search-term
+# Magento2 Skip Search Term
