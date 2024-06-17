@@ -1,0 +1,6 @@
+<!-- File: app/code/Hgati/SkipSearchTerm/etc/frontend/events.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework/Event/etc/events.xsd">
+    <event name="catalogsearch_query_save_before">
+        <observer name="skip_search_term_record_observer" instance="Hgati\SkipSearchTerm\Observer\SkipSearchTermRecordObserver" />
+    </event>
+</config>

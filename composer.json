@@ -1,0 +1,15 @@
+{
+    "name": "hgati/skip-search-term",
+    "description": "Magento 2 module to skip search term recording for AJAX requests.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hgati\\SkipSearchTerm\\": ""
+        }
+    }
+}
